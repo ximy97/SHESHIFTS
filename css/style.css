@@ -1,0 +1,88 @@
+/* General CSS */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.bg-img{
+    background: url(../midterm/images/smoke\ texture.jpeg) local;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    height: auto;
+}    
+.container {
+    display: flex;
+}
+
+.text {
+    flex: 1;
+    padding: 40px;
+    color:#335254
+}
+
+.image {
+    flex: 1;
+}
+
+.image img {
+    max-width: 100vh;
+    height: auto;
+    display: block;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+header {
+    background-color:#335254;
+    background-size: 400px;
+    color: #F19423; 
+    text-align: center;
+    text-size-adjust: 30px;
+    padding: 5px;
+    font-family: "t26-carbon", monospace;
+    font-weight: 500;
+    font-style: italic;
+  margin-top: 0;
+}
+
+header h1 {
+font-size:80px;
+margin-bottom: 0;
+margin-top: 8px;
+padding-bottom: 0;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: "t26-carbon", monospace;
+font-weight: 100;
+font-style: normal;
+font-size: smaller;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFFFFF; /* White */
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+   
+
+}
+
+footer {
+    background-color: #212226;
+    color: #FFFFFF; /* White */
+    text-align: center;
+    padding: 20px;
+    margin:0%;
+   
+}
